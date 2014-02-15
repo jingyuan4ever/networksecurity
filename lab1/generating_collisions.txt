@@ -1,0 +1,33 @@
+Q1:
+Uses 1.48 seconds
+
+Here is the log.
+
+MD5 collision generator v1.5
+by Marc Stevens (http://www.win.tue.nl/hashclash/)
+
+Using output filenames: 'file1' and 'file2'
+Using initial value: 0123456789abcdeffedcba9876543210
+
+Generating first block: .......
+Generating second block: S01....
+Running time: 1.48 s
+
+real	0m1.504s
+user	0m1.488s
+sys	0m0.
+
+Q2:
+file1=8ee0013eb32a14fbfde4ba10f4f65538fac31b395c42b6f6fb7d80a98da40b515e15c1eace8cebe50ff0ec33a06df27a0d9fac7194d745a25178b39abfa4c3530b867f047542f00a153c456ce18618fe32be741d2166166ad15aeeb7ec87dee32823261404d5023fda8b48f7f7084a6e255433080f1b366268979c3ad4df193f
+file2=8ee0013eb32a14fbfde4ba10f4f65538fac31bb95c42b6f6fb7d80a98da40b515e15c1eace8cebe50ff0ec33a0edf27a0d9fac7194d745a25178b31abfa4c3530b867f047542f00a153c456ce18618fe32be749d2166166ad15aeeb7ec87dee32823261404d5023fda8b48f7f788496e255433080f1b366268979cbad4df193f
+
+Q3:
+MD5(file1)= 4db2fcf873b92a8140964e97e855ccd0
+MD5(file2)= 4db2fcf873b92a8140964e97e855ccd0
+
+Q4:
+SHA256(file1)= 23c3d925952d22884969f177fa43af2e991c3c9bd4ea100831ade5c08fe6c5db
+SHA256(file2)= 19b2b3686eb779da0fc85a6017336e13cf37232d22ca34c9c13925e74ca394e5
+
+
+
